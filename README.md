@@ -1,6 +1,6 @@
 # Ejercicios de evaluación
 Los siguientes programas forman parte de una evalución de la materia de POO. Cada ejercicio solicitado se encuentra en un paquete diferente.
-## Ejercicio 1
+## [Ejercicio 1](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion/tree/main/src/Ejercicio1)
 
 ### Problema
 Escriba una aplicación que lea un número y verifique que se es un número primo o no. La salida será por consola
