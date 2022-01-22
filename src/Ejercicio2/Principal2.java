@@ -1,12 +1,11 @@
-
 package Ejercicio2;
+import java.util.Scanner;
 
-/**
- *
- * @author Adolfo Juárez 
- */
 public class Principal2 {
     public static void main (String[] Args){
-        System.out.print("HolaMundo");
+        Scanner sc = new Scanner(System.in);
+        System.out.print("\t\t¡SALUDOS!\nIngrese su nombre: ");
+        String name = sc.next();
+        System.out.println("Buenos días "+name+" :)");
     }
 }

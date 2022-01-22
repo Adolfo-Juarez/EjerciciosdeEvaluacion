@@ -1,10 +1,18 @@
 # Ejercicios de evaluación
 Los siguientes programas forman parte de una evalución de la materia de POO. Cada ejercicio solicitado se encuentra en un paquete diferente.
-## [Ejercicio 1](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion/tree/main/src/Ejercicio1)
+
+### Índice
++ [Ejercicio 1:](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-1) ¿Es primo?
++ [Ejercicio 2:](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-2) ¡Saludos!
+
+## [Ejercicio 1:](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion/tree/main/src/Ejercicio1) ¿Es primo?
 
 ### Problema
+
 Escriba una aplicación que lea un número y verifique que se es un número primo o no. La salida será por consola
+
 ### Solución
+
 Los números primos son número natural **mayor que 1** que tiene únicamente **dos divisores positivos distintos**: él mismo y el 1.​​ 
 
 Creamos dos clases: una que almacena la función principal, dónde unicamente pedirá los datos e imprimirá el resultado.
@@ -18,3 +26,12 @@ Si el bucle `if (Num>0){}` no se cumple, se retorna `return " no es un número n
 
 Si no entra a ninguno de estas setencias, se retorna ` return " no es primo";`, ya que comprobamos que el número sí es positivo natural y que no es divisible por nungún otro número que no sea el mismo y 1.
 
+## [Ejercicio 2:](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion/tree/main/src/Ejercicio2) ¡Saludos!
+
+### Problema
+
+Escriba una aplicación que lea su nombre y aparezca en la pantalla la frase: **Buenos días** `nombre_introducido`. La salida por **consola**
+
+### Solución
+
+La solución es bastante sencilla, importamos la clase scanner de `java.util.Scanner`, mostramos una instrucción por consola con la instrucción `System.out.print();` para que ingrese su nombre. Este nombre será guardado en una variable `String name` y al final se imprimirá en pantalla el saludo concatenando el nombre: `System.out.println("Buenos días "+name+" :)");`.
