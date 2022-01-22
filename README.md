@@ -2,10 +2,10 @@
 Los siguientes programas forman parte de una evalución de la materia de POO. Cada ejercicio solicitado se encuentra en un paquete diferente.
 
 ### Índice
-+ [Ejercicio 1:](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-1) ¿Es primo?
-+ [Ejercicio 2:](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-2) ¡Saludos!
++ [Ejercicio 1](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-1-es-primo): ¿Es primo?
++ [Ejercicio 2:](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-2-saludos): ¡Saludos!
 
-## [Ejercicio 1:](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion/tree/main/src/Ejercicio1) ¿Es primo?
+## [Ejercicio 1](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion/tree/main/src/Ejercicio1): ¿Es primo?
 
 ### Problema
 
@@ -26,7 +26,7 @@ Si el bucle `if (Num>0){}` no se cumple, se retorna `return " no es un número n
 
 Si no entra a ninguno de estas setencias, se retorna ` return " no es primo";`, ya que comprobamos que el número sí es positivo natural y que no es divisible por nungún otro número que no sea el mismo y 1.
 
-## [Ejercicio 2:](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion/tree/main/src/Ejercicio2) ¡Saludos!
+## [Ejercicio 2](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion/tree/main/src/Ejercicio2): ¡Saludos!
 
 ### Problema
 
