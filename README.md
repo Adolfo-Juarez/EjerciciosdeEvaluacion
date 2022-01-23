@@ -2,11 +2,12 @@
 Los siguientes programas forman parte de una evalución de la materia de POO. Cada ejercicio solicitado se encuentra en un paquete diferente.
 
 ### Índice
-+ [Ejercicio 1](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-1-es-primo): ¿Es primo?
-+ [Ejercicio 2](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-2-saludos): ¡Saludos!
-+ [Ejercicio 3](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-3-circuferencias): Circuferencias
-+ [Ejercicio 4](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-4-de-kilometros-a-metros): De Kilometros a Metros
-+ [Ejercicio 5](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-5-pir%C3%A1mides-de-n%C3%BAmeros): Pirámides de Números
++ [Ejercicio 1](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-1-es-primo): ¿Es primo? | Consola
++ [Ejercicio 2](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-2-saludos): ¡Saludos! | Consola
++ [Ejercicio 3](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-3-circunferencias): Circuferencias | Consola
++ [Ejercicio 4](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-4-de-kilometros-a-metros): De Kilometros a Metros | Consola
++ [Ejercicio 5](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-5-pir%C3%A1mides-de-n%C3%BAmeros): Pirámides de Números | Consola
++ [Ejercicio 6](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-6-descubre-hipotenusa): Descubre Hipotenusa | Cuadros de Diálogo
 
 ## [Ejercicio 1](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion/tree/main/src/Ejercicio1): ¿Es primo?
 
@@ -83,4 +84,16 @@ Para un número `N`=12345. La salida por consola debe ser:
 Para este problema, le pedimos al usuario que ingrese una cifra que será tratada como `int`, y lo pasaremos al método `largo` de la clase local `Piramide` que convierte la variable a `String` con el método `Integer.toString(int Num)`y verifica que tenga 5 dígitos de largo con la función `numCadena.lenght();`.
 
 Si cumple con lo solicitado, regresa `true` y pasa la variable `int` que ingreso el usuario al método `construir` el cual transforma la variable de `int` a `String` y contiene dos ciclos `for` que concatena cada carácter del `String`.
+
+## [Ejercicio 6](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion/tree/main/src/Ejercicio6): Descubre Hipotenusa
+
+### Problema
+
+Escriba una aplicación que lea la longitud de los catetos de un triángulo rectángulo y **calcule la hipotenusa** según el teorema de Pitágoras. La entrada y salida será por medio de **cuadros de diálogos**.
+
+### Solución
+
+Importamos las clases `javax.swing.JOptionPane` para poder mostrar los cuadros de dialogos.
+Creamos dos clases, en una estaba el método principal y en `Hipotenusa` se encuentra los cuadros de dialogos que permite introducir datos para pasarlos a `double` con el método `Double.parseDouble(String Num);` y realizar el cálculo de la hipotenusa con el método `Math`: `Math.sqrt(Math.pow(ca, 2)+Math.pow(co, 2))`
+
 
