@@ -19,5 +19,4 @@ public class LongArea {
     public boolean esPositivo (double num){
         return num > 0;
     }
-    
 }

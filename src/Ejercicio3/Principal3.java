@@ -22,6 +22,6 @@ public class Principal3 {
                 System.out.println("Ingrese un número positivo e inténtelo de nuevo");
                 }
             }
-        } while(radio!=0);
+        }while(radio!=0);
     }
 }

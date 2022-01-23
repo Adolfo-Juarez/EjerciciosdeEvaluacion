@@ -48,4 +48,3 @@ Escriba una aplicación que lea por teclado el valor del radio de una circunfere
 La solución incluye la importación de 3 métodos: `Scanner`, `DecimalFormat`, `Math`.
 
 He creado dos clases: la clase **Principal3**, donde se piden a medidad del radio y se imprime el resultado usando `FormatDecimal` para colocar los puntos decimales y comas. Y **LongArea** para calcular el área y longitud de la circinferencia, con el método `Math` para realizar las potencias (que bien se pudo hacer desde la clase con unos ciclos for, pero traté de usar la menor cantidad de líneas posibles).
-
