@@ -3,7 +3,8 @@ Los siguientes programas forman parte de una evalución de la materia de POO. Ca
 
 ### Índice
 + [Ejercicio 1](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-1-es-primo): ¿Es primo?
-+ [Ejercicio 2:](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-2-saludos): ¡Saludos!
++ [Ejercicio 2](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-2-saludos): ¡Saludos!
++ [Ejercicio 3](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-3-circuferencias): Circuferencias
 
 ## [Ejercicio 1](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion/tree/main/src/Ejercicio1): ¿Es primo?
 
@@ -35,3 +36,16 @@ Escriba una aplicación que lea su nombre y aparezca en la pantalla la frase: **
 ### Solución
 
 La solución es bastante sencilla, importamos la clase scanner de `java.util.Scanner`, mostramos una instrucción por consola con la instrucción `System.out.print();` para que ingrese su nombre. Este nombre será guardado en una variable `String name` y al final se imprimirá en pantalla el saludo concatenando el nombre: `System.out.println("Buenos días "+name+" :)");`.
+
+## [Ejercicio 3](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion/tree/main/src/Ejercicio3): Circuferencias
+
+### Problema
+
+Escriba una aplicación que lea por teclado el valor del radio de una circunferencia y muestre por pantalla la longitud y el área de la circunferencia. La salida será por consola. Longitud de la circunferencia = 2*PI*Radio, Área de la circunferencia = PI * Radio^2.
+
+### Solución
+
+La solución incluye la importación de 3 métodos: `Scanner`, `DecimalFormat`, `Math`.
+
+He creado dos clases: la clase **Principal3**, donde se piden a medidad del radio y se imprime el resultado usando `FormatDecimal` para colocar los puntos decimales y comas. Y **LongArea** para calcular el área y longitud de la circinferencia, con el método `Math` para realizar las potencias (que bien se pudo hacer desde la clase con unos ciclos for, pero traté de usar la menor cantidad de líneas posibles).
+
