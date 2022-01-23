@@ -6,6 +6,7 @@ Los siguientes programas forman parte de una evalución de la materia de POO. Ca
 + [Ejercicio 2](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-2-saludos): ¡Saludos!
 + [Ejercicio 3](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-3-circuferencias): Circuferencias
 + [Ejercicio 4](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-4-de-kilometros-a-metros): De Kilometros a Metros
++ [Ejercicio 5](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-5-piramides-de-numeros): Pirámides de Números
 
 ## [Ejercicio 1](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion/tree/main/src/Ejercicio1): ¿Es primo?
 
@@ -15,7 +16,7 @@ Escriba una aplicación que lea un número y verifique que se es un número prim
 
 ### Solución
 
-Los números primos son número natural **mayor que 1** que tiene únicamente **dos divisores positivos distintos**: él mismo y el 1.​​ 
+Los números primos son números naturales **mayor que 1** que tiene únicamente **dos divisores positivos distintos**: él mismo y el 1.​​ 
 
 Creamos dos clases: una que almacena la función principal, dónde unicamente pedirá los datos e imprimirá el resultado.
 
@@ -59,3 +60,27 @@ Escriba una aplicación que convierta una velocidad de Km/h a m/s. La velocidad 
 ### Solución
 
 Creamos 2 clases (aunque realmente no eran necesarias para este caso, pero si en un futuro queremos realizar otra conversiones serán útiles). En la clase principal solicitamos los datos a convertir y el la clase `Conversor` creamos un método `ms` que divide a la variable `kmh` (la entrada del usuario) entre 3.6 e imprime la cantidad en terminal.
+
+## [Ejercicio 5](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion/tree/main/src/Ejercicio5): Pirámides de Números
+
+### Problema
+
+Escriba un problema que lea un número entero de **5 cifras** y muestra sus cifras igual que en el ejemplo.
+Para un número `N`=12345. La salida por consola debe ser:
+> 1
+> 
+> 12
+> 
+> 123
+> 
+> 1234
+> 
+> 12345
+> 
+
+### Solución
+
+Para este problema, le pedimos al usuario que ingrese una cifra que será tratada como `int`, y lo pasaremos al método `largo` de la clase local `Piramide` que convierte la variable a `String` con el método `Integer.toString(int Num)`y verifica que tenga 5 dígitos de largo con la función `numCadena.lenght();`.
+
+Si cumple con lo solicitado, regresa `true` y pasa la variable `int` que ingreso el usuario al método `construir` el cual transforma la variable de `int` a `String` y contiene dos ciclos `for` que concatena cada carácter del `String`.
+
