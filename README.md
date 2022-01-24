@@ -1,6 +1,8 @@
 # Ejercicios de evaluación
 Los siguientes programas forman parte de una evalución de la materia de POO. Cada ejercicio solicitado se encuentra en un paquete diferente.
 
+Ir a: [[Índice]](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#%C3%ADndice)[[Versiones]](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#versiones)
+
 ### Índice
 + [Ejercicio 1](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-1-es-primo): ¿Es primo? | Consola
 + [Ejercicio 2](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-2-saludos): ¡Saludos! | Consola
@@ -8,6 +10,18 @@ Los siguientes programas forman parte de una evalución de la materia de POO. Ca
 + [Ejercicio 4](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-4-de-kilometros-a-metros): De Kilometros a Metros | Consola
 + [Ejercicio 5](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-5-pir%C3%A1mides-de-n%C3%BAmeros): Pirámides de Números | Consola
 + [Ejercicio 6](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-6-descubre-hipotenusa): Descubre Hipotenusa | Cuadros de Diálogo
++ [Ejercicio 7](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-7-calcula-tri%C3%A1ngulos): Calcula Triángulos | Cuadros de Diálogo
++ [Ejercicio 8](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-8-de-a-tres): De a Tres | Cuadros de Diálogo
++ [Ejercicio 9](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-9-n%C3%BAmero-de-la-suerte): Número de la Suerte| Cuadros de Diálogo
++ [Ejercicio 10](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-10-verificador-de-hora): Verificador de Hora | Cuadros de Diálogo
+
+## Versiones
+
+### 1.0.0
+
++ Se incluyen los todos los ejercicios
++ Siete de los ejercicios presentan en dos clases
++ Del ejercicio seis al diez se muestran en cuadros de diálogos
 
 ## [Ejercicio 1](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion/tree/main/src/Ejercicio1): ¿Es primo?
 
@@ -96,4 +110,61 @@ Escriba una aplicación que lea la longitud de los catetos de un triángulo rect
 Importamos las clases `javax.swing.JOptionPane` para poder mostrar los cuadros de dialogos.
 Creamos dos clases, en una estaba el método principal y en `Hipotenusa` se encuentra los cuadros de dialogos que permite introducir datos para pasarlos a `double` con el método `Double.parseDouble(String Num);` y realizar el cálculo de la hipotenusa con el método `Math`: `Math.sqrt(Math.pow(ca, 2)+Math.pow(co, 2))`
 
+## [Ejercicio 7](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion/tree/main/src/Ejercicio7): Calcula Triángulos
+
+### Problema
+
+Escriba una aplicación que calcule el área de un triángulo en función de las longitudes de sus lados (a, b, c), según la siguiente fórmula: 
+**Área**=**RaízCuadrada(p*(p-a)*(p-b)*(p-c))**
+
+Donde **p**=**(a+b+c)/2**
+
+La entrada y salida será por medio de Cuadros de Diálogo.
+
+### Solución
+
+Se muestra cuadro de texto solicitando cada requisito y en una segunda clase se realiza las operaciones indicadas y se muestra un siguiente cuadro de dialogo que muestra la solución.
+
+## [Ejercicio 8](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion/tree/main/src/Ejercicio8): De a Tres
+
+### Problema
+
+Escriba una aplicación que lea un número entero de 3 cifras y muestre por separado las cifras del número. La entrada y salida será por medio de Cuadros de Diálogo.
+
+### Solución
+
+Se pide un número de tres cifras a través de un `JOptionPane.showInputDialog` que se tratará como un dato `String` y se verificará que el largo de carácteres sea 3, de ser así entrará a un bucle `for` que mostrará por cuadro de diálogo cada uno de los carácteres de los valores asignados.
+
+## [Ejercicio 9](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion/tree/main/src/Ejercicio9): Número de la suerte
+
+### Problema
+
+Escriba una aplicación que pida por Cuadro de Diálogo la fecha de nacimiento de una persona (día, mes, año) y calcule su número de la suerte.
+
+El número de la suerte se calcula sumando el día, mes y año de la fecha de nacimiento y a continuación se suman las cifras obtenidas en la suma.
+
+Por ejemplo:
+Si la fecha de nacimiento es 12/07/1980
+Calculamos el número de la suerte así: 12+7+1980 = 1999 1+9+9+9 = 28 
+**Número de la suerte: 28.**
+
+La salida se muestra por **Cuadro de Diálogo Personalizado**.
+
+### Solución
+
+Esta aplicación fue realizada en una sóla clase (que planeo corregir) y lee los datos desde un `JOptionPane.showInputDialog` y se verifica que sean datos coherentes, [Día(1-31); Mes (1-12); Año (1900-2021]. Posterior mente se convierte a `String` y se suma, el resultado se transforma a `String` nuevamente y se extrae carácter por carácter para después transformarlo a `int` por última vez y sumarlos para almacenarlo en una variable que será impresa en un cuadro de diálogo nuevo.
+
+## [Ejercicio 10](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion/tree/main/src/Ejercicio10): Verificador de hora
+
+### Problema
+
+Escriba una aplicación que lea por **Cuadro de Diálogo tres números enteros** H, M, S correspondientes a hora, minutos y segundos respectivamente, y comprueba si la hora que indican es una hora válida.
+
+Supondremos que leemos una hora en modo 24 Horas, es decir, el valor válido para las horas será mayor o igual que cero y menor que 24.
+
+El valor válido para los minutos y segundos estará comprendido entre 0 y 59 ambos incluidos. La salida se muestra por **Cuadro de Diálogo Personalizado**.
+
+### Solución
+
+Se introdcue los dígitos y se verifica que sean datos coherentes, [Hora (0-23); Minuto (0-59); Segundo (0-59)], si cumple con estos requisitos, se imprimirá en un cuadro de diálogo nuevo.
 
