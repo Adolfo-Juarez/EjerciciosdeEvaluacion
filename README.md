@@ -17,7 +17,7 @@ Ir a: [[Índice]](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#%C3%AD
 
 ## Versiones
 
-### [1.0.0](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion/commit/30cfa9bf70d700e759c0f44d8b428c510a71366a)
+### [1.0.0](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion/tree/30cfa9bf70d700e759c0f44d8b428c510a71366a)
 
 + Se incluyen los todos los ejercicios
 + Siete de los ejercicios presentan en dos clases
