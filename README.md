@@ -29,7 +29,7 @@ Ir a: |[Índice](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#%C3%ADn
 + [Ejercicio 9](#ejercicio-9-n%C3%BAmero-de-la-suerte): Número de la Suerte| Cuadros de Diálogo
 + [Ejercicio 10](#ejercicio-10-verificador-de-hora): Verificador de Hora | Cuadros de Diálogo
 
-## Ejercicio 1: ¿Es primo?
+## [Ejercicio 1](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion/tree/main/src/Ejercicio1): ¿Es primo?
 
 ### Problema
 
@@ -50,7 +50,7 @@ Si el bucle `if (Num>0){}` no se cumple, se retorna `return " no es un número n
 
 Si no entra a ninguno de estas setencias, se retorna ` return " no es primo";`, ya que comprobamos que el número sí es positivo natural y que no es divisible por nungún otro número que no sea el mismo y 1.
 
-## Ejercicio 2: ¡Saludos!
+## [Ejercicio 2](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion/tree/main/src/Ejercicio2): ¡Saludos!
 
 ### Problema
 
@@ -60,7 +60,7 @@ Escriba una aplicación que lea su nombre y aparezca en la pantalla la frase: **
 
 La solución es bastante sencilla, importamos la clase scanner de `java.util.Scanner`, mostramos una instrucción por consola con la instrucción `System.out.print();` para que ingrese su nombre. Este nombre será guardado en una variable `String name` y al final se imprimirá en pantalla el saludo concatenando el nombre: `System.out.println("Buenos días "+name+" :)");`.
 
-## Ejercicio 3: Circunferencias
+## [Ejercicio 3](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion/tree/main/src/Ejercicio3): Circunferencias
 
 ### Problema
 
@@ -72,7 +72,7 @@ La solución incluye la importación de 3 métodos: `Scanner`, `DecimalFormat`, 
 
 He creado dos clases: la clase **Principal3**, donde se piden a medidad del radio y se imprime el resultado usando `FormatDecimal` para colocar los puntos decimales y comas. Y **LongArea** para calcular el área y longitud de la circinferencia, con el método `Math` para realizar las potencias (que bien se pudo hacer desde la clase con unos ciclos for, pero traté de usar la menor cantidad de líneas posibles).
 
-## Ejercicio 4: De Kilometros a Metros
+## [Ejercicio 4](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion/tree/main/src/Ejercicio4): De Kilometros a Metros
 
 ### Problema
 
@@ -82,7 +82,7 @@ Escriba una aplicación que convierta una velocidad de Km/h a m/s. La velocidad 
 
 Creamos 2 clases (aunque realmente no eran necesarias para este caso, pero si en un futuro queremos realizar otra conversiones serán útiles). En la clase principal solicitamos los datos a convertir y el la clase `Conversor` creamos un método `ms` que divide a la variable `kmh` (la entrada del usuario) entre 3.6 e imprime la cantidad en terminal.
 
-## Ejercicio 5: Pirámides de Números
+## [Ejercicio 5](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion/tree/main/src/Ejercicio5): Pirámides de Números
 
 ### Problema
 
@@ -105,7 +105,7 @@ Para este problema, le pedimos al usuario que ingrese una cifra que será tratad
 
 Si cumple con lo solicitado, regresa `true` y pasa la variable `int` que ingreso el usuario al método `construir` el cual transforma la variable de `int` a `String` y contiene dos ciclos `for` que concatena cada carácter del `String`.
 
-## Ejercicio 6: Descubre Hipotenusa
+## [Ejercicio 6](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion/tree/main/src/Ejercicio6): Descubre Hipotenusa
 
 ### Problema
 
@@ -116,7 +116,7 @@ Escriba una aplicación que lea la longitud de los catetos de un triángulo rect
 Importamos las clases `javax.swing.JOptionPane` para poder mostrar los cuadros de dialogos.
 Creamos dos clases, en una estaba el método principal y en `Hipotenusa` se encuentra los cuadros de dialogos que permite introducir datos para pasarlos a `double` con el método `Double.parseDouble(String Num);` y realizar el cálculo de la hipotenusa con el método `Math`: `Math.sqrt(Math.pow(ca, 2)+Math.pow(co, 2))`
 
-## Ejercicio 7: Calcula Triángulos
+## [Ejercicio 7](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion/tree/main/src/Ejercicio7): Calcula Triángulos
 
 ### Problema
 
@@ -131,7 +131,7 @@ La entrada y salida será por medio de Cuadros de Diálogo.
 
 Se muestra cuadro de texto solicitando cada requisito y en una segunda clase se realiza las operaciones indicadas y se muestra un siguiente cuadro de dialogo que muestra la solución.
 
-## Ejercicio 8: De a Tres
+## [Ejercicio 8](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion/tree/main/src/Ejercicio8): De a Tres
 
 ### Problema
 
@@ -141,7 +141,7 @@ Escriba una aplicación que lea un número entero de 3 cifras y muestre por sepa
 
 Se pide un número de tres cifras a través de un `JOptionPane.showInputDialog` que se tratará como un dato `String` y se verificará que el largo de carácteres sea 3, de ser así entrará a un bucle `for` que mostrará por cuadro de diálogo cada uno de los carácteres de los valores asignados.
 
-## Ejercicio 9: Número de la suerte
+## [Ejercicio 9](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion/tree/main/src/Ejercicio9): Número de la suerte
 
 ### Problema
 
@@ -160,7 +160,7 @@ La salida se muestra por **Cuadro de Diálogo Personalizado**.
 
 Esta aplicación fue realizada en una sóla clase (que planeo corregir) y lee los datos desde un `JOptionPane.showInputDialog` y se verifica que sean datos coherentes, [Día(1-31); Mes (1-12); Año (1900-2021]. Posterior mente se convierte a `String` y se suma, el resultado se transforma a `String` nuevamente y se extrae carácter por carácter para después transformarlo a `int` por última vez y sumarlos para almacenarlo en una variable que será impresa en un cuadro de diálogo nuevo.
 
-## Ejercicio 10: Verificador de hora
+## [Ejercicio 10](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion/tree/main/src/Ejercicio10): Verificador de hora
 
 ### Problema
 
