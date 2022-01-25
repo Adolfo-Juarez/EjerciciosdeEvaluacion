@@ -1,23 +1,23 @@
 # Ejercicios de evaluación
 Los siguientes programas forman parte de una evalución de la materia de POO. Cada ejercicio solicitado se encuentra en un paquete diferente.
 
-Ir a: [[Índice]](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#%C3%ADndice)[[Versiones]](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#versiones)
+Ir a: |[Índice](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#%C3%ADndice)|[Versiones](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#versiones)|
 
 ### Índice
-+ [Ejercicio 1](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-1-es-primo): ¿Es primo? | Consola
-+ [Ejercicio 2](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-2-saludos): ¡Saludos! | Consola
-+ [Ejercicio 3](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-3-circunferencias): Circuferencias | Consola
-+ [Ejercicio 4](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-4-de-kilometros-a-metros): De Kilometros a Metros | Consola
-+ [Ejercicio 5](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-5-pir%C3%A1mides-de-n%C3%BAmeros): Pirámides de Números | Consola
-+ [Ejercicio 6](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-6-descubre-hipotenusa): Descubre Hipotenusa | Cuadros de Diálogo
-+ [Ejercicio 7](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-7-calcula-tri%C3%A1ngulos): Calcula Triángulos | Cuadros de Diálogo
-+ [Ejercicio 8](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-8-de-a-tres): De a Tres | Cuadros de Diálogo
-+ [Ejercicio 9](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-9-n%C3%BAmero-de-la-suerte): Número de la Suerte| Cuadros de Diálogo
-+ [Ejercicio 10](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion#ejercicio-10-verificador-de-hora): Verificador de Hora | Cuadros de Diálogo
++ [Ejercicio 1](#ejercicio-1-es-primo): ¿Es primo? | Consola
++ [Ejercicio 2](#ejercicio-2-saludos): ¡Saludos! | Consola
++ [Ejercicio 3](#ejercicio-3-circunferencias): Circuferencias | Consola
++ [Ejercicio 4](#ejercicio-4-de-kilometros-a-metros): De Kilometros a Metros | Consola
++ [Ejercicio 5](#ejercicio-5-pir%C3%A1mides-de-n%C3%BAmeros): Pirámides de Números | Consola
++ [Ejercicio 6](#ejercicio-6-descubre-hipotenusa): Descubre Hipotenusa | Cuadros de Diálogo
++ [Ejercicio 7](#ejercicio-7-calcula-tri%C3%A1ngulos): Calcula Triángulos | Cuadros de Diálogo
++ [Ejercicio 8](#ejercicio-8-de-a-tres): De a Tres | Cuadros de Diálogo
++ [Ejercicio 9](#ejercicio-9-n%C3%BAmero-de-la-suerte): Número de la Suerte| Cuadros de Diálogo
++ [Ejercicio 10](#ejercicio-10-verificador-de-hora): Verificador de Hora | Cuadros de Diálogo
 
 ## Versiones
 
-### [1.0.0](https://github.com/Adolfo-Juarez/EjerciciosdeEvaluacion/tree/30cfa9bf70d700e759c0f44d8b428c510a71366a)
+### 1.0.0 [Actual]
 
 + Se incluyen los todos los ejercicios
 + Siete de los ejercicios presentan en dos clases
